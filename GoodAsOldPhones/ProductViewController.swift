@@ -10,8 +10,7 @@ import UIKit
 
 class ProductViewController: UIViewController {
     
-    var productName: String?
-    var productImage: UIImage?
+    var product: Product?
 
     @IBOutlet weak var productImageView: UIImageView!
     @IBOutlet weak var productNameLabel: UILabel!
@@ -19,8 +18,10 @@ class ProductViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        productNameLabel.text = productName
-        productImageView.image = productImage
+        productNameLabel.text = product?.name
+        if let image = product?.productImage {
+          productImageView.image = UIImage(named: image)
+        }
     }
     @IBAction func addToCartPressed(_ sender: Any) {
         print("Button tapped")

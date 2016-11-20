@@ -10,6 +10,7 @@
 		CA115A401DE0C820003C235A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A3F1DE0C820003C235A /* ProductViewController.swift */; };
 		CA115A421DE120B2003C235A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A411DE120B2003C235A /* ContactViewController.swift */; };
 		CA115A441DE12823003C235A /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A431DE12823003C235A /* ProductsTableViewController.swift */; };
+		CA115A461DE13816003C235A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A451DE13816003C235A /* Product.swift */; };
 		CA75DBDD1DE0BF750079AC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA75DBDC1DE0BF750079AC60 /* AppDelegate.swift */; };
 		CA75DBE21DE0BF760079AC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA75DBE01DE0BF760079AC60 /* Main.storyboard */; };
 		CA75DBE41DE0BF760079AC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA75DBE31DE0BF760079AC60 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		CA115A3F1DE0C820003C235A /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		CA115A411DE120B2003C235A /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		CA115A431DE12823003C235A /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		CA115A451DE13816003C235A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		CA75DBD91DE0BF750079AC60 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA75DBDC1DE0BF750079AC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA75DBE11DE0BF760079AC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				CA115A3F1DE0C820003C235A /* ProductViewController.swift */,
 				CA115A411DE120B2003C235A /* ContactViewController.swift */,
 				CA115A431DE12823003C235A /* ProductsTableViewController.swift */,
+				CA115A451DE13816003C235A /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				CA115A401DE0C820003C235A /* ProductViewController.swift in Sources */,
 				CA115A441DE12823003C235A /* ProductsTableViewController.swift in Sources */,
+				CA115A461DE13816003C235A /* Product.swift in Sources */,
 				CA75DBDD1DE0BF750079AC60 /* AppDelegate.swift in Sources */,
 				CA115A421DE120B2003C235A /* ContactViewController.swift in Sources */,
 			);
