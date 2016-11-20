@@ -13,6 +13,14 @@ class ProductsTableViewController: UITableViewController {
         return 5
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowProduct" {
+            let productVC = segue.destination as? ProductViewController
+            
+            productVC?.productName = "Really old phone"
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProductCell", for: indexPath)
