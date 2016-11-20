@@ -17,6 +17,9 @@ class ProductsTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProductCell", for: indexPath)
         
+        cell.textLabel?.text = "Hello friend."
+        cell.imageView?.image = #imageLiteral(resourceName: "image-cell1")
+        
         return cell
     }
 }
