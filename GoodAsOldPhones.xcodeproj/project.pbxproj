@@ -11,6 +11,9 @@
 		CA115A421DE120B2003C235A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A411DE120B2003C235A /* ContactViewController.swift */; };
 		CA115A441DE12823003C235A /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A431DE12823003C235A /* ProductsTableViewController.swift */; };
 		CA115A461DE13816003C235A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A451DE13816003C235A /* Product.swift */; };
+		CA115A481DE27C29003C235A /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A471DE27C29003C235A /* CartTableViewController.swift */; };
+		CA115A4A1DE27ECA003C235A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A491DE27ECA003C235A /* Order.swift */; };
+		CA115A4C1DE27F1E003C235A /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA115A4B1DE27F1E003C235A /* Orders.swift */; };
 		CA75DBDD1DE0BF750079AC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA75DBDC1DE0BF750079AC60 /* AppDelegate.swift */; };
 		CA75DBE21DE0BF760079AC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA75DBE01DE0BF760079AC60 /* Main.storyboard */; };
 		CA75DBE41DE0BF760079AC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA75DBE31DE0BF760079AC60 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 		CA115A411DE120B2003C235A /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		CA115A431DE12823003C235A /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		CA115A451DE13816003C235A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CA115A471DE27C29003C235A /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		CA115A491DE27ECA003C235A /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CA115A4B1DE27F1E003C235A /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		CA75DBD91DE0BF750079AC60 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA75DBDC1DE0BF750079AC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA75DBE11DE0BF760079AC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				CA115A411DE120B2003C235A /* ContactViewController.swift */,
 				CA115A431DE12823003C235A /* ProductsTableViewController.swift */,
 				CA115A451DE13816003C235A /* Product.swift */,
+				CA115A471DE27C29003C235A /* CartTableViewController.swift */,
+				CA115A491DE27ECA003C235A /* Order.swift */,
+				CA115A4B1DE27F1E003C235A /* Orders.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -147,10 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA115A401DE0C820003C235A /* ProductViewController.swift in Sources */,
+				CA115A481DE27C29003C235A /* CartTableViewController.swift in Sources */,
 				CA115A441DE12823003C235A /* ProductsTableViewController.swift in Sources */,
 				CA115A461DE13816003C235A /* Product.swift in Sources */,
 				CA75DBDD1DE0BF750079AC60 /* AppDelegate.swift in Sources */,
 				CA115A421DE120B2003C235A /* ContactViewController.swift in Sources */,
+				CA115A4C1DE27F1E003C235A /* Orders.swift in Sources */,
+				CA115A4A1DE27ECA003C235A /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

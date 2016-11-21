@@ -35,6 +35,17 @@ class ProductViewController: UIViewController {
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         alertController.addAction(action)
         
-        present(alertController, animated: true, completion: nil)
+        let order = Order()
+        order.order_id = 1
+        order.product = product
+        
+        var orders = Orders.readOrdersFromArchive()
+        orders?.append(order)
+        
+        if let orders = orders {
+            if Orders.saveOrdersToArchive(orders: orders) {
+                present(alertController, animated: true, completion: nil)
+            }
+        }
     }
 }
