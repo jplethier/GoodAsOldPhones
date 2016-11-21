@@ -25,5 +25,16 @@ class ProductViewController: UIViewController {
     }
     @IBAction func addToCartPressed(_ sender: Any) {
         print("Button tapped")
+        
+        guard let product = product, let price = product.price else {
+            print("Prouct without a price")
+            return
+        }
+        
+        let alertController = UIAlertController(title: "Saved to the cart", message: "Saved to cart with price of \(price)", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(action)
+        
+        present(alertController, animated: true, completion: nil)
     }
 }
